@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+}
+.menu li {
+    margin-left: 20px;
+}
+.menu__link{
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+
+}
+
+@media (max-width: 760px) {
+    .menu{
+        display: block;
+    }
+}

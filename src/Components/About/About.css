@@ -1,0 +1,74 @@
+.about-items{
+
+}
+.about-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 10px 30px 45px;
+
+}
+.about-text{
+    width: 570px;
+    margin-bottom: 50px;
+}
+.color {
+    background-color: beige;
+}
+
+.about-heading {
+    color: #05585e;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: .88px;
+    margin: 0 0 65px;
+}
+
+.text {
+    color: #05585e;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+}
+.text::before{
+    content: '';
+    position: relative;
+    right: 40px;
+    top: 27px;
+    display: block;
+    background-image: url('./../../img/triangle-2.svg');
+    width: 18px;
+    height: 21px;
+    background-repeat: no-repeat;
+}
+
+.text-two::before {
+    content: '';
+    position: relative;
+    right: 40px;
+    top: 27px;
+    display: block;
+    background-image: url('./../../img/triangle-3.svg');
+    width: 18px;
+    height: 21px;
+    background-repeat: no-repeat;
+}
+
+.girl img {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 760px) {
+    .about-text{
+        width: 100%;
+    }
+    .about-heading{
+        font-size: 28px;
+        line-height: 34px;
+        margin: 0 0 25px;
+    }
+
+}

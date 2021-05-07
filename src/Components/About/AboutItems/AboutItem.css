@@ -1,0 +1,9 @@
+.reverse{
+    flex-direction: row-reverse;
+}
+.about-img img{
+    width: 100%;
+}
+.about-items{
+    background-color: white;
+}

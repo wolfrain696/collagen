@@ -1,0 +1,154 @@
+.application {
+    padding: 50px 0;
+}
+
+.application-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.application-top {
+}
+
+.application-title {
+    margin-top: 50px;
+    color: #05585e;
+    font-size: 74px;
+    line-height: 78px;
+    font-weight: 600;
+    letter-spacing: 1.48px;
+}
+
+.application-bottom {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left {
+    max-width: 590px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.application-text {
+    margin-bottom: 50px;
+    padding-left: 41px;
+    color: #05585e;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+}
+
+.margin-text {
+    margin-bottom: 50px;
+}
+
+.margin-text::before {
+    content: '';
+    position: relative;
+    right: 40px;
+    top: 27px;
+    display: block;
+    background-image: url('./../../img/triangle-2.svg');
+    width: 18px;
+    height: 21px;
+    background-repeat: no-repeat;
+}
+
+
+.application-tell {
+    display: inline-block;
+    padding: 20px 50px;
+    box-shadow: 10px 13px 40px rgba(5 88 94 0.3);
+    border-radius: 30px;
+    background-color: #11aea3;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: 30px;
+}
+
+.right {
+    max-width: 590px;
+    margin-top: -55px;
+}
+
+.img-wrapper {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.application-img {
+    display: block;
+}
+
+.right-title {
+    margin: 0 0 40px;
+    color: #05585e;
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 600;
+    letter-spacing: 0.44px;
+}
+
+.right-text::before {
+    content: '';
+    position: relative;
+    right: 40px;
+    top: 27px;
+    display: block;
+    background-image: url('./../../img/triangle-2.svg');
+    width: 18px;
+    height: 21px;
+    background-repeat: no-repeat;
+}
+
+.application-text {
+    color: #05585e;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+}
+
+@media (max-width: 1170px) {
+    .img-wrapper {
+        display: none;
+    }
+
+    .application-bottom {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        max-width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .right {
+        max-width: 100%;
+    }
+
+    .application-title{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .right-title {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .application-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .application-tell {
+        padding: 10px 30px;
+    }
+
+
+}
+

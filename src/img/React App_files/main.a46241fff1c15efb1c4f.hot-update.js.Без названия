@@ -1,0 +1,15 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Components/cards/Boxcard/Boxcard.css":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/Components/cards/Boxcard/Boxcard.css ***!
+  \*****************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/postcss-loader/src/index.js):\nSyntaxError\n\n(10:15) Missed semicolon\n\n \u001b[90m  8 | \u001b[39m\u001b[33m}\u001b[39m\n \u001b[90m  9 | \u001b[39m\u001b[33m.box-img\u001b[39m\u001b[33m{\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 | \u001b[39m    flex\u001b[33m:\u001b[39m 0 0 33.33%\n \u001b[90m    | \u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 | \u001b[39m    width\u001b[33m:\u001b[39m 200px\n \u001b[90m 12 | \u001b[39m\u001b[33m}\u001b[39m\n");
+
+/***/ })
+
+})
+//# sourceMappingURL=main.a46241fff1c15efb1c4f.hot-update.js.map
